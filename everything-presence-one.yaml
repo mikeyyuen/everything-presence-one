@@ -30,9 +30,6 @@ esphome:
 
 esp32:
   board: esp32dev
-  # ESPHome 2026.1+ defaults to ESP-IDF; pin Arduino to keep the existing build.
-  framework:
-    type: arduino
 
 logger:
 
